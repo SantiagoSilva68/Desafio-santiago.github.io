@@ -371,18 +371,14 @@ body{
         margin-bottom: 103px;
     }
 }
-.contenedor-cajas{
-    display: flex;
-    flex-direction: column;
-    width: 335px;
-    align-items: flex-start;
-}
+
 @media(min-width: 1440px){
     .contenedor-cajas{
         display: flex;
         flex-direction: column;
         width: 335px;
         margin-right: 489px;
+        align-items:flex-start;
     }
 }
 .contenedor-cuarto{
@@ -393,6 +389,12 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+.contenedor-cajas{
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    align-items: flex-start;
 }
 @media(min-width: 1440px){
     .contenedor-cuarto{
